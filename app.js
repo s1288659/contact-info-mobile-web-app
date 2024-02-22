@@ -69,5 +69,5 @@ function addrow(contact){
 
     var mobileCell = row.insertCell();
     mobileCell.setAttribute('data-label',"Mobile");
-    mobileCell.innerHTML = contact.mobile;
+    mobileCell.innerHTML = contact.phone.mobile;
 }
