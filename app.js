@@ -64,10 +64,10 @@ function addrow(contact){
     nameCell.innerHTML = contact.name;
 
     var addressCell = row.insertCell();
-    nameCell.setAttribute('data-label',"Address");
-    nameCell.innerHTML = contact.address;
+    addressCell.setAttribute('data-label',"Address");
+    addressCell.innerHTML = contact.address;
 
     var mobileCell = row.insertCell();
-    nameCell.setAttribute('data-label',"Mobile");
-    nameCell.innerHTML = contact.mobile;
+    mobileCell.setAttribute('data-label',"Mobile");
+    mobileCell.innerHTML = contact.mobile;
 }
