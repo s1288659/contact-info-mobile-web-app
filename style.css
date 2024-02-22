@@ -39,6 +39,14 @@ table th{
         text-align: right;
         border-bottom: 0px;
     }
+    
+    /* Behave like a table header */
+    table td::before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
 
     /*Behave like a table header */
     table td:last-child {
